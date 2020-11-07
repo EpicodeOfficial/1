@@ -1,0 +1,245 @@
+html {
+  /*     background: black;
+  color: #c00; */
+  background: #1488CC;
+  text-align: center;
+  /*   height: 200vh; */
+  font-family: "Raleway", sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent;
+  /*   Optional: just make scrollbar invisible  */
+}
+.modal-content {
+  background: lightblue;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.header {
+  font-size: 50px;
+  padding: 1rem;
+}
+.navbar {
+  background-color: #c00;
+  /*   background: pink; */
+  padding: 20px;
+}
+#current-tab {
+  color: orange;
+}
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+a {
+  color: pink;
+  /* font-weight:bold; */
+  text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+}
+:root {
+  --color1: white; /* var(--color1) */
+  --color2: red; /* var(--color2) */
+  --color3: none; /* var(--color3) */
+  --color4: orange; /* var(--color4) */
+  --color5: pink; /* var(--color5) */
+  --color6: navy; /* var(--color5) */
+  --color6: navy; /* var(--color5) */
+}
+/* this is the table that encloses the form*/
+#keeperblock {
+  color: var(--color1);
+  background-color: var(--color3);
+  /*   border: solid 1px var(--color1); */
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 40vh;
+}
+
+/* username & password input text boxes*/
+#keeperblock #ku,
+#kp {
+  border: solid 1px var(--color1);
+  font: normal 12px verdana;
+  width: 100;
+}
+
+/* cell that contains the text "save password"*/
+#keeperblock #ksp {
+  font: normal 11px arial;
+}
+
+/* sign-in button*/
+#keeperblock #kb {
+  color: var(--color1);
+  background-color: var(--color3);
+  border: solid 1px var(--color1);
+}
+
+/* div that contains the noscript blurb*/
+#keeperblock #kns {
+  display: inline;
+  color: var(--color1);
+  background-color: var(--color3);
+  font: normal 11px tahoma, sans-serif;
+}
+.login {
+  border: orange 3px solid;
+  padding: 10px;
+  position: absolute;
+  margin: 10px;
+  top: 0px;
+  right: 0px;
+  color: orange;
+}
+.idle {
+  /*   border: var(--color1) 1px solid; */
+  position: absolute;
+  top: 0px !important;
+  padding: 0px !important;
+  left: 10px !important;
+  color: black;
+  font-size: 15px;
+}
+.tab {
+  margin: 10px;
+}
+.safety {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: fixed;
+  padding: 20px;
+  margin: 0px;
+  background: black;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  #cookies {
+    display: none;
+  }
+}
+#cookies {
+  display: none;
+}
+.button {
+  background: black;
+  color: white;
+  border: 2px #c00 solid;
+  padding: 5px;
+  border-radius: 25px;
+
+  outline: none;
+}
+.button:hover {
+  color: red;
+}
+.button2 {
+  color: #c00;
+  border: 2px #c00 solid;
+  border-radius: 25px;
+  padding: 5px;
+  outline: none;
+}
+.button2:hover {
+  color: red;
+  background: white;
+}
+
+.newSame {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  display: none;
+  draggable: true;
+}
+
+.newSame-content {
+  background: lightblue;
+  /*   position: absolute; */
+  position: fixed;
+  /*   transform: translate(-50%, -50%); */
+  padding: 30px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #888;
+  /*     top: 50vh; */
+  bottom: 50vh;
+  right: 50vh;
+  left: 60vh;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.relative {
+  display: block;
+  float: right;
+  background-color: navy;
+  color: white;
+  border: 2px #c00 solid;
+  border-radius: 25px;
+  padding: 5px;
+  outline: none;
+  margin: 0px;
+}
+.section {
+  height: 100vh;
+}
+@media only screen and (max-width: 1024px) {
+  #mobile {
+    display: none;
+  }
+}
+#mobile {
+  display: none;
+}
+.alert {
+  padding: 10px;
+  background-color: purple; /* Red */
+  color: white;
+  /*   margin-bottom: 15px; */
+}
+.alert2 {
+  padding: 10px;
+  background-color: orange; /* Red */
+  color: white;
+  /*   margin-bottom: 15px; */
+}
+.button3 {
+  width: 100%;
+  padding: 5px;
+  background: green;
+  color: white;
+  /*   border:1px solid blue; */
+}
+.button3:hover {
+  color: black;
+}
+.close {
+  color: grey;
+  float: right;
+  right: 0;
+  top: 0;
+  font-size: 28px;
+}
